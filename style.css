@@ -9,3 +9,17 @@ body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-natural);
 }
+
+.container{
+    height:300vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.container_botão{
+    background-color:var(--azuleto);
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--branco-natural);
+    display:block ;
+}

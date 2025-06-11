@@ -14,15 +14,13 @@ body{
     font-weight: 400;
 }
 .principal{
-    background-image: url("img/Background\ \(1\).png");
     background-repeat: no-repeat;
     background-size: contain;
 
-    
 }
 
 .container{
-    height: 100vh;
+    height: 300vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -38,9 +36,10 @@ body{
 .botao__secundario{
     background-color: transparent;
     border: 2px solid var(--branco-principal);
+    border: radius 5px; ;
 }
 .container__aviso{
-    font-size: 12px;
+    font-size: 20px;
     color: var(--cinza-secundario);
 }
 

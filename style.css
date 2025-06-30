@@ -20,7 +20,7 @@ body{
 }
 
 .container{
-    height: 300vh;
+    height: 150vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
